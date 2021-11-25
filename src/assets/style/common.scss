@@ -7,15 +7,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: $lightColor;
 }
 .container {
     width: 70%;
     margin: auto;
 }
 a {
-    list-style: none;
+    text-decoration: none;
+    color: #000;
+    &:hover {
+        color: $mainColor;
+    }
 }
 li {
     list-style: none;
@@ -29,4 +37,21 @@ li {
     padding: 10px 15px;
     border-radius: 15px;
     border: none;
+    &:hover {
+        color: $lightColor;
+    }
+}
+section {
+    margin-top: 70px;
+}
+.section-intro {
+    text-align: center;
+    margin-bottom: 70px;
+    h3 {
+        font-size: 2rem;
+    }
+    h5 {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
 }

@@ -40,8 +40,8 @@ export default {
     grid-template-columns: 1fr 6fr 6fr;
     grid-template-rows: auto;
     width: 100%;
-    margin-top: 50px;
-    column-gap: 70px;
+    margin-top: 3.125rem;
+    column-gap: 4.375rem;
     .hero-left {
         display: grid;
         grid-template-columns: 1fr;
@@ -73,7 +73,7 @@ export default {
     }
     .hero-center {
         display: grid;
-        grid-template-rows: 100px 70px 2fr;
+        grid-template-rows: 6.25rem 4.375rem 2fr;
         h1 {
             font-size: 2.5rem;
             align-self: end;
@@ -91,7 +91,7 @@ export default {
             margin-right: auto;
             align-self: start;
             justify-self: start;
-            margin: 20px 0;
+            margin: 1.25rem 0;
         }
     }
     .hero-right {

@@ -6,8 +6,8 @@
             </div>
             <nav>
                 <ul>
-                    <li v-for="(elm, index) in nav" :key=index>{{elm}}</li>
-                    <li><i class="fas fa-adjust"></i></li>
+                    <li v-for="(link, index) in links" :key=index><a :href="link.url">{{link.name}}</a></li>
+                    <li><a href=""><i class="fas fa-adjust"></i></a></li>
                 </ul>
             </nav>
         </header>
@@ -19,7 +19,29 @@ export default {
     name: 'Header',
     data() {
         return {
-            nav : ['Home', 'About', 'Skills', 'Esperienze', 'Portfolio']
+            links : 
+            [
+                {
+                    name: 'Home',
+                    url: '#'
+                },
+                {
+                    name: 'About',
+                    url: '#about'
+                },
+                {
+                    name: 'Skills',
+                    url: '#skills'
+                },
+                {
+                    name: 'Esperienze',
+                    url: '#experience'
+                },
+                {
+                    name: 'Portfolio',
+                    url: '#portfolio'
+                },
+            ]
         }
     },
 }
