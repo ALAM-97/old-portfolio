@@ -1,0 +1,107 @@
+<template>
+    <div class="container">
+        <section class="hero">
+            <div class="hero-left">
+                <a class="github-link" href="https://github.com/ALAM-97" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a class="linkedin-link" href="https://www.linkedin.com/in/alessandro-amara-1475a41a1/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>               
+                <i class="fas fa-print"></i> <!-- cliccare per stampare CV -->         
+            </div>
+            <div class="hero-center">
+                <h1>Ciao, sono Alessandro</h1>
+                <h5>Jr Full-Stack Web Developer</h5>
+                <p>
+                    Dopo aver lavorato per due anni nel settore aeroportuale ho deciso di seguire la mia passione per la tecnologia e l'informatica. <br>
+                    A Giugno 2021 mi sono iscritto al corso full-time di sei mesi di Boolean Careers per diventare Web Developer, ora sono alla ricerca di un lavoro in un ambiente stimolante che mi permetta di crescere e di mettermi in gioco. 
+                </p>
+                <a class="btn" href="">Contattami</a>
+            </div>
+            <div class="hero-right">
+            <img src="../assets/img/orange-blob.png" alt="">
+            </div>
+        </section>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'Hero',
+}
+</script>
+
+<style lang="scss" scoped>
+@import '../assets/style/variables.scss';
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 6fr 6fr;
+    grid-template-rows: auto;
+    width: 100%;
+    margin-top: 50px;
+    column-gap: 70px;
+    .hero-left {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 2fr;
+        grid-template-areas: 
+            "github"
+            "linkedin"
+            "print";
+        i {
+            font-size: 1.5rem;
+            color: $mainColor;
+        }
+        i:hover {
+            opacity: .6;
+        }
+        .github-link {
+            grid-area: github;
+            justify-self: center;
+            align-self: end;
+        }
+        .linkedin-link {
+            grid-area: linkedin;
+            place-self: center;
+        }
+        .fa-print {
+            grid-area: print;
+            justify-self: center;
+        }
+    }
+    .hero-center {
+        display: grid;
+        grid-template-rows: 100px 70px 2fr;
+        h1 {
+            font-size: 2.5rem;
+            align-self: end;
+        }
+        h5 {
+            font-size: 1.3rem;
+            font-weight: 300;
+            align-self: center;
+        }
+        p {
+            font-size: 1.2rem;
+            align-self: start;
+        }
+        a {
+            margin-right: auto;
+            align-self: start;
+            justify-self: start;
+            margin: 20px 0;
+        }
+    }
+    .hero-right {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+    img {
+        width: 90%;
+    }
+}
+
+</style>
