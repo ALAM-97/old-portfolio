@@ -33,7 +33,7 @@ export default {
         left: 0;
         right: 0;
         bottom: 0;
-        background: #15202B;
+        background: $purpleColor;
         -webkit-transition: 0.4s;
         transition: 0.4s;
         &:before {
@@ -55,10 +55,10 @@ export default {
         }
     }
     input:checked + .toggler {
-        background: $mainColor;
+        background: $azureColor;
     }
     input:focus + toggler {
-        box-shadow: 0 0 2px $mainColor;
+        box-shadow: 0 0 2px $azureColor;
     }
     input:checked + .toggler:before {
         -webkit-transform: translateX(26px);

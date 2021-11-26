@@ -20,7 +20,7 @@
                 <a class="btn" href="">Contattami</a>
             </div>
             <div class="hero-right">
-            <img src="../assets/img/orange-blob.png" alt="">
+            <img src="../assets/img/multicolor-blob.png" alt="">
             </div>
         </section>
     </div>
@@ -52,7 +52,15 @@ export default {
             "print";
         i {
             font-size: 1.5rem;
-            color: $mainColor;
+            &.fa-github {
+                color: $azureColor;
+            }
+            &.fa-linkedin-in {
+                color: $orangeColor;
+            }
+            &.fa-print {
+                color: $purpleColor;;
+            }
         }
         i:hover {
             opacity: .6;

@@ -2,7 +2,7 @@
   <div id="app" :class="mode">
     <body>
       <div class="red-line">
-        SITO IN SVILUPPO
+        SITO IN SVILUPPO <i class="fas fa-wrench"></i>
       </div>
       <Header :mode="mode" @toggle="toggle" />
       <Hero/>
