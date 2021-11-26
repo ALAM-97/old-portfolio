@@ -104,4 +104,24 @@ export default {
     }
 }
 
+@media (max-width: 1420px) {
+    .show-on-1420 {
+        .hero-center h1 {
+            font-size: 2.1rem;
+            align-self: end;
+        }
+        .hero-center h5 {
+            font-size: 1.1rem;
+        }
+        .hero-center p {
+            font-size: 1.3rem;
+            align-self: start;
+        }
+        .hero-right img {
+            width: 100%;
+        }
+    }
+    
+}
+
 </style>

@@ -12,15 +12,24 @@ html {
 }
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: $lightColor;
+    width: 100%;
 }
+.light {
+    background: $lightColor;
+    transition: background 0.5s ease-in-out;
+}
+.dark {
+    background: rgb(20, 20, 20);
+    color: $lightColor;
+    transition: background 0.5s ease-in-out;
+    }
 .container {
     width: 70%;
     margin: auto;
 }
 a {
     text-decoration: none;
-    color: #000;
+    color: inherit;
     &:hover {
         color: $mainColor;
     }
@@ -46,7 +55,7 @@ section {
 }
 .section-intro {
     text-align: center;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
     h3 {
         font-size: 2rem;
     }
