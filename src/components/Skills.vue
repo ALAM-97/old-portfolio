@@ -5,7 +5,7 @@
             <h5>Le mie conoscenze tecniche</h5>
         </div>
         <!-- SLIDER -->
-        <infinite-slide-bar>
+        <infinite-slide-bar :duration="duration">
             <div class="items">
                 <div class="item" v-for="(logo, index) in logos" :key="index">
                     <div class="logo">
@@ -28,6 +28,7 @@ export default {
     components: {
         InfiniteSlideBar
     },
+    props: ['duration'],
     data() {
         return {
             logos: [
@@ -87,6 +88,7 @@ export default {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 5.625rem;
     .item {
         text-align: center;
         width: 120px;

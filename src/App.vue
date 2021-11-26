@@ -7,7 +7,8 @@
       <Header :mode="mode" @toggle="toggle" />
       <Hero/>
       <About/>
-      <Skills/>
+      <Skills :duration="duration" />
+      <Experience/>
     </body>
   </div>
 </template>
@@ -17,6 +18,7 @@ import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
 import About from './components/About.vue';
 import Skills from './components/Skills.vue';
+import Experience from './components/Experience.vue';
 
 export default {
   name: 'App',
@@ -24,11 +26,13 @@ export default {
     Header,
     Hero,
     About,
-    Skills
+    Skills,
+    Experience
   },
   data() {
     return {
-      mode : 'light'
+      mode : 'light',
+      duration: '27s'
     }
   },
   methods: {
