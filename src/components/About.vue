@@ -6,7 +6,7 @@
                 <h5>Qualcosa su di me</h5>
             </div>
             <div class="about-content">
-                <img src="../assets/img/logo-face.png" alt="">
+                <img src="../assets/img/about-logo.png" alt="">
                 <div class="about-content-right">
                     <p>
                         Dopo gli studi ho lavorato per un anno in una start-up che si occupa della creazione di siti internet affiliati al network marketing, nonostante avessi conseguito gli studi da geometra mi ero molto appassionato a quel mondo iniziando a studiare da auto-didatta. Per motivi economici ho dovuto cambiare settore, lavorando per 15 mesi come addetto di scalo presso l'aeroporto internazionale di Roma-Fiumicino. Dopo aver perso il lavoro causa Covid sono tornato sui miei passi e mi sono iscritto al corso Boolean per diventare un Full-Stack Web Developer!
