@@ -40,10 +40,10 @@ export default {
                     name: 'Skills',
                     url: '#skills'
                 },
-                {
-                    name: 'Esperienze',
-                    url: '#experience'
-                },
+                // {
+                //     name: 'Esperienze',
+                //     url: '#experience'
+                // },
                 {
                     name: 'Portfolio',
                     url: '#portfolio'
@@ -59,7 +59,6 @@ export default {
 </script>
 
 <style lang="scss">
-    @import '~@fortawesome/fontawesome-free/css/all.css';
     @import '../assets/style/variables.scss';
 
     header {
@@ -70,8 +69,10 @@ export default {
         padding: 15px;
         transition: background 0.3s ease-in-out;
         .logo {
+            display: flex;
+            align-items: center;
             img {
-                width: 15%;
+                width: 10%;
             }
         }
         ul {
@@ -83,6 +84,9 @@ export default {
                 font-size: 1.2rem;
                 font-weight: 600;
                 cursor: pointer;
+                &:hover {
+                    color: $orangeColor;
+                }
             }
         }
     }

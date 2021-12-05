@@ -29,54 +29,9 @@ export default {
         InfiniteSlideBar
     },
     props: ['duration'],
-    data() {
-        return {
-            logos: [
-                {
-                    name: 'HTML',
-                    url: require("../assets/img/skills/html.png")
-                },
-                {
-                    name: 'CSS',
-                    url: require("../assets/img/skills/css.png")
-                },
-                {
-                    name: 'SCSS',
-                    url: require("../assets/img/skills/sass.png")
-                },
-                {
-                    name: 'BOOTSTRAP',
-                    url: require("../assets/img/skills/bootstrap.png")
-                },
-                {
-                    name: 'JAVASCRIPT',
-                    url: require("../assets/img/skills/javascript.png")
-                },
-                {
-                    name: 'VUEJS',
-                    url: require("../assets/img/skills/vuejs.png")
-                },
-                {
-                    name: 'PHP',
-                    url: require("../assets/img/skills/php.png")
-                },
-                {
-                    name: 'MYSQL',
-                    url: require("../assets/img/skills/mysql.png")
-                },
-                {
-                    name: 'LARAVEL',
-                    url: require("../assets/img/skills/laravel.png")
-                },
-                {
-                    name: 'PHOTOSHOP',
-                    url: require("../assets/img/skills/photoshop.png")
-                },
-                {
-                    name: 'ILLUSTRATOR',
-                    url: require("../assets/img/skills/illustrator.png")
-                },
-            ]
+    computed: {
+        logos() {
+            return this.$store.state.logos
         }
     }
 }

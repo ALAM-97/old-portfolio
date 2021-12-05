@@ -14,10 +14,8 @@
                 <h1>Ciao, sono Alessandro</h1>
                 <h5>Jr Full-Stack Web Developer</h5>
                 <p>
-                    Dopo aver lavorato per due anni nel settore aeroportuale ho deciso di seguire la mia passione per la tecnologia e l'informatica. <br>
-                    A Giugno 2021 mi sono iscritto al corso full-time di sei mesi di Boolean Careers per diventare Web Developer, ora sono alla ricerca di un lavoro in un ambiente stimolante che mi permetta di crescere e di mettermi in gioco. 
+                    Mi sono sempre definito una persona creativa con una costante voglia di imparare e crescere, dopo aver lavorato in ambiti che non ho mai sentito 'miei' ho deciso di darmi una possibilità e di cambiare completamente vita e professione, seguendo la mia passione per la tecnologia e l'informatica. A Giugno 2021 mi sono iscritto al corso full-time di Boolean Careers per diventare Web Developer, ora sono alla ricerca di un lavoro in un ambiente che stimoli la mia creatività, che mi permetta di crescere e di interfacciarmi con nuove tecnologie e di mettermi in gioco. 
                 </p>
-                <a class="btn" href="">Contattami</a>
             </div>
             <div class="hero-right">
             <img src="../assets/img/multicolor-blob.png" alt="">
