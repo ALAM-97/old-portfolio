@@ -43,12 +43,11 @@ export default {
         padding-bottom: 50px;
         .project {
             width: calc(100% / 3 - 70px);
-            height: 220px;
+            height: 100%;
             position: relative;
             margin-bottom: 50px;
             .screenshot {
                 width: 100%;
-                height: 100%;
             }
             .overlay {
                 position: absolute;
@@ -66,13 +65,12 @@ export default {
                     display: flex;
                     align-items: center;
                     .tec {
-                    width: 10%;
-                    margin-right: 10px;
-                    margin-top: 20px;
-                    opacity: 0;
+                        width: 10%;
+                        margin-right: 10px;
+                        margin-top: 20px;
+                        opacity: 0;
+                    }
                 }
-                }
-                
                 .proj-btn {
                     opacity: 0;
                     padding: 5px 18px;
