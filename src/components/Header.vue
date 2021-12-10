@@ -2,7 +2,7 @@
     <div class="container">
         <header>
             <div class="logo">
-                <img src="../assets/img/logo.png" alt="">
+                <img src="../assets/img/Logo-AA-Orange.svg" alt="">
             </div>
             <nav>
                 <ul>
@@ -68,11 +68,12 @@ export default {
         width: 100%;
         padding: 15px;
         transition: background 0.3s ease-in-out;
+        margin-top: 10px;
         .logo {
             display: flex;
             align-items: center;
             img {
-                width: 10%;
+                width: 30%;
             }
         }
         ul {
