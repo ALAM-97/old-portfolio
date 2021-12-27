@@ -46,10 +46,10 @@ export const store = new Vuex.Store({
                     name: 'PHOTOSHOP',
                     url: require("../assets/img/skills/photoshop.png")
                 },
-                // {
-                //     name: 'ILLUSTRATOR',
-                //     url: require("../assets/img/skills/illustrator.png")
-                // },
+                {
+                    name: 'ILLUSTRATOR',
+                    url: require("../assets/img/skills/illustrator.png")
+                },
             ],
         projects: [
                 {

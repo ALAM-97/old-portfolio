@@ -9,6 +9,7 @@
       <About/>
       <Skills :duration="duration" />
       <Portfolio/>
+      <Footer/>
       <!-- <Experience/> -->
     </body>
   </div>
@@ -20,6 +21,7 @@ import Hero from './components/Hero.vue';
 import About from './components/About.vue';
 import Skills from './components/Skills.vue';
 import Portfolio from './components/Portfolio.vue';
+import Footer from './components/Footer.vue';
 // import Experience from './components/Experience.vue';
 
 export default {
@@ -29,7 +31,8 @@ export default {
     Hero,
     About,
     Skills,
-    Portfolio
+    Portfolio,
+    Footer
     // Experience
   },
   data() {

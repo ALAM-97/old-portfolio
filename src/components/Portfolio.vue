@@ -40,7 +40,6 @@ export default {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        margin-bottom: 50px;
         .project {
             width: calc(100% / 3 - 40px);
             background: blue;
