@@ -1,5 +1,5 @@
 <template>
-    <section id="porfolio">
+    <section id="portfolio">
         <div class="section-intro">
             <h3>PORTFOLIO</h3>
             <h5>Alcuni dei progetti che ho realizzato</h5>
@@ -40,21 +40,23 @@ export default {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding-bottom: 50px;
+        margin-bottom: 50px;
         .project {
-            width: calc(100% / 3 - 70px);
-            height: 100%;
+            width: calc(100% / 3 - 40px);
+            background: blue;
             position: relative;
+            margin: 0 20px;
             margin-bottom: 50px;
-            .screenshot {
+            img {
                 width: 100%;
+                height: 100%;
             }
             .overlay {
                 position: absolute;
-                width: 100%;
-                height: 100%;
                 top: 0;
                 left: 0;
+                bottom: 0;
+                right: 0;
                 padding: 15px;
                 color: transparent;
                 background-color: rgb(24, 23, 23, 0);
