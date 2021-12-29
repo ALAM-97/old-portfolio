@@ -20,17 +20,17 @@ export default {
 @import '../assets/style/variables.scss';
     
 .footer {
-    height: 10rem;
     display: flex;
     background: $orangeColor;
     justify-content: center;
+    padding: 20px;
     img {
         width: 15%;
     }
 }
-.footer-bottom {
-    display: flex;
-    justify-content: center;
-    background: $orangeColor;
-}
+// .footer-bottom {
+//     display: flex;
+//     justify-content: center;
+//     background: $orangeColor;
+// }
 </style>
