@@ -31,6 +31,10 @@ export const store = new Vuex.Store({
                     url: require("../assets/img/skills/vuejs.png")
                 },
                 {
+                    name: 'REACT',
+                    url: require("../assets/img/skills/react.png")
+                },
+                {
                     name: 'PHP',
                     url: require("../assets/img/skills/php.png")
                 },
