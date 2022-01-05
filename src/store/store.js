@@ -56,28 +56,28 @@ export const store = new Vuex.Store({
                 },
             ],
         projects: [
-                {
-                    name: 'DISCORD',
-                    img: require("../assets/img/discord.jpg"),
-                    tecnologies: [
-                        {
-                            html: require("../assets/img/skills/html.png"),
-                            css: require("../assets/img/skills/css.png")
-                        }
-                    ],
-                    url: 'https://alam-97-boolean-discord.netlify.app/'
-                },
-                {
-                    name: 'DROPBOX',
-                    img: require("../assets/img/dropbox.jpg"),
-                    tecnologies: [
-                        {
-                            html: require("../assets/img/skills/html.png"),
-                            css: require("../assets/img/skills/css.png")
-                        }
-                    ],
-                    url: 'https://alam-97-boolean-dropbox.netlify.app/'
-                },
+                // {
+                //     name: 'DISCORD',
+                //     img: require("../assets/img/discord.jpg"),
+                //     tecnologies: [
+                //         {
+                //             html: require("../assets/img/skills/html.png"),
+                //             css: require("../assets/img/skills/css.png")
+                //         }
+                //     ],
+                //     url: 'https://alam-97-boolean-discord.netlify.app/'
+                // },
+                // {
+                //     name: 'DROPBOX',
+                //     img: require("../assets/img/dropbox.jpg"),
+                //     tecnologies: [
+                //         {
+                //             html: require("../assets/img/skills/html.png"),
+                //             css: require("../assets/img/skills/css.png")
+                //         }
+                //     ],
+                //     url: 'https://alam-97-boolean-dropbox.netlify.app/'
+                // },
                 {
                     name: 'PLAYSTATION STORE',
                     img: require("../assets/img/playstation.jpg"),
@@ -103,17 +103,36 @@ export const store = new Vuex.Store({
                     url: 'https://alam-97-boolean-spotify.netlify.app/'
                 },
                 {
-                    name: 'TICKET CALCULATOR',
-                    img: require("../assets/img/ticket-calculator.jpg"),
-                    tecnologies: [
-                        {
-                            html: require("../assets/img/skills/html.png"),
-                            css: require("../assets/img/skills/css.png"),
-                            js: require("../assets/img/skills/javascript.png")
-                        }
-                    ],
-                    url: 'https://alam-97-ticket-price-calculator.netlify.app/'
+                    name: 'CALCULATOR',
+                    img: require("../assets/img/calculator.jpg"),
+                    tecnologies: [{
+                        html: require("../assets/img/skills/html.png"),
+                        css: require("../assets/img/skills/css.png"),
+                        js: require("../assets/img/skills/javascript.png")
+                    }],
+                    url: 'https://alam-97-js-calculator.netlify.app/'
                 },
+                {
+                    name: 'MAGIC MATCH',
+                    img: require("../assets/img/magic-match.jpg"),
+                    tecnologies: [{
+                        react: require("../assets/img/skills/react.png"),
+                        css: require("../assets/img/skills/css.png")
+                    }],
+                    url: 'https://alam-97-magic-match.netlify.app/'
+                },
+                // {
+                //     name: 'TICKET CALCULATOR',
+                //     img: require("../assets/img/ticket-calculator.jpg"),
+                //     tecnologies: [
+                //         {
+                //             html: require("../assets/img/skills/html.png"),
+                //             css: require("../assets/img/skills/css.png"),
+                //             js: require("../assets/img/skills/javascript.png")
+                //         }
+                //     ],
+                //     url: 'https://alam-97-ticket-price-calculator.netlify.app/'
+                // },
                 {
                     name: 'WHATSAPP',
                     img: require("../assets/img/whatsapp.jpg"),
@@ -126,18 +145,18 @@ export const store = new Vuex.Store({
                     ],
                     url: 'https://alam-97-whatsapp.netlify.app/'
                 },
-                {
-                    name: 'MAX COACH',
-                    img: require("../assets/img/max-coach.png"),
-                    tecnologies: [
-                        {
-                            vuejs: require("../assets/img/skills/vuejs.png"),
-                            sass: require("../assets/img/skills/sass.png")
+                // {
+                //     name: 'MAX COACH',
+                //     img: require("../assets/img/max-coach.png"),
+                //     tecnologies: [
+                //         {
+                //             vuejs: require("../assets/img/skills/vuejs.png"),
+                //             sass: require("../assets/img/skills/sass.png")
                             
-                        }
-                    ],
-                    url: 'https://max-coach-alam.netlify.app/'
-                },
+                //         }
+                //     ],
+                //     url: 'https://max-coach-alam.netlify.app/'
+                // },
                 {
                     name: 'DC COMICS',
                     img: require("../assets/img/dc-comics.jpg"),
